@@ -1,0 +1,17 @@
+{
+  "name": "sentry-5-esm-breaking-change",
+  "private": true,
+  "scripts": {
+    "build": "webpack --mode=development --devtool=none",
+    "check-es5": "es-check es5 dist/main.js",
+    "build-and-check-es5": "yarn build && yarn check-es5"
+  },
+  "devDependencies": {
+    "es-check": "5.0.0",
+    "webpack": "4.29.6",
+    "webpack-cli": "3.3.0"
+  },
+  "dependencies": {
+    "@sentry/browser": "4.6.6"
+  }
+}
