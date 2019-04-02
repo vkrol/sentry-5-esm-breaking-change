@@ -12,6 +12,6 @@
     "webpack-cli": "3.3.0"
   },
   "dependencies": {
-    "@sentry/browser": "4.6.6"
+    "@sentry/browser": "5.0.3"
   }
 }
