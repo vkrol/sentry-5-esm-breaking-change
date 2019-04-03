@@ -1,4 +1,5 @@
 # sentry-5-esm-webpack-breaking-change
+https://github.com/getsentry/sentry-javascript/issues/1989
 ## Steps
 1. Run `npm install` or `yarn`
 2. Run `npm run build-and-check-es5` or `yarn build-and-check-es5`
